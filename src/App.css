@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+.jumbotron {
+  padding:70px 30px 70px 30px !important;
+  margin:0px auto;
+  background: rgb(8, 223, 238) !important;
+  color: white;
+  
 }
 
 .App-logo {
@@ -35,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img{
+  margin: 0px auto;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
 }
