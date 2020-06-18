@@ -7,7 +7,7 @@ import  { TAGLINES }  from '../shared/taglines';
 
 function RenderName({name}){
     return(
-    <h1 className="display-4" id="myName"><b>{name}</b></h1>
+    <h4 className="display-4" id="myName"><b>{name}</b></h4>
     );
 }
 function RenderCarouselItem({tagline}){

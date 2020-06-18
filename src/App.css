@@ -84,7 +84,6 @@
 .carousel p{
   float: left;
 }
-
 .carousel .carousel-status{
   display: none;
 }
@@ -104,13 +103,16 @@
   color :rgb(9, 214, 241);
 }
 
-.about{
+.about, .skills, .projects{
   background-color: black;
 }
 
 .row-display{
   padding: 30px 30px 30px 30px;
   font-size: 150%;
+}
+.job-style{
+  font-size: 80% !important;
 }
 .row-display h1{
   border-left:5px solid rgb(143, 142, 140);
@@ -119,6 +121,19 @@
 
 .row-edu{
   border-bottom: 1px ridge  rgb(55, 71, 82);
+}
+.codingprofile{
+  background-color: transparent;
+}
+.codingprofile a{
+  margin: 0px auto;
+  color: azure;
+ 
+  
+}
+.codingprofile a:hover {
+  color: azure;
+  background-color: rgb(9, 214, 241);
 }
 .footer{
   background-color: rgb(135, 134, 138);
