@@ -4,16 +4,16 @@ import {SKILLS} from '../shared/skills';
 function RenderSkillSet({skillset}){
     var i=0;
     const set= skillset.map( (skill) => {
-        if(i==0){
+        if(i===0){
             i++;
             return(
-                <span>{skill}</span>
+                <span key={skill}>{skill}</span>
             );
            
         }
         else{
             return(
-                <span>, {skill}</span>
+                <span key={skill}>, {skill}</span>
             );
         }
     });

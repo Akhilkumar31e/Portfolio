@@ -15,13 +15,13 @@ export const PROFILES = [
         name:'LeetCode'
     },
     {
-        id:3,
-        link:'https://www.spoj.com/users/akhilkumar31e/',
-        name:'SPOJ'
-    },
-    {
         id:4,
         link:'https://www.interviewbit.com/profile/akhilkumar31e6712',
         name:'InterviewBit'
+    },
+    {
+        id:3,
+        link:'https://www.spoj.com/users/akhilkumar31e/',
+        name:'SPOJ'
     }
 ]

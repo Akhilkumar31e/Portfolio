@@ -84,7 +84,7 @@ class Header extends Component{
                     <div className="container" id="home">
                         <div className="row row-header"> 
                             <div className="col-12 col-sm-3">
-                                <img className="img-fluid img-circle"  src="/assets/images/display_pic.JPG" alt="Profile pic" />
+                                <img className="img-fluid img-thumbnail img-rounded"  src="/assets/images/display_pic.JPG" alt="Profile pic" />
                             </div>
                             <div className="col-12 col-sm-9">
                                 <RenderName name={this.props.myName}/>

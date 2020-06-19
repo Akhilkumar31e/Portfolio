@@ -10,16 +10,16 @@ function CodingProfile(props) {
     });
     return(
         <React.Fragment>
-            <div className="container" id="codingProfiles">
-                <div className="row row-display justify-row-center">
-                    <div className="col-12 col-sm-4 ">
-                        <h2>Coding Profiles</h2>
+            <div className="codingprofile">
+                <div className="container" id="codingProfiles">
+                    <div className="row  justify-content-center">
+                        <h1>Coding Profiles</h1>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-12 ">
-                        <div className="d-flex flex-wrap bd-highlight mb-5 justify-content-center codingprofile">
-                            {buttons}  
+                    <div className="row">
+                        <div className="col-12 ">
+                            <div className="d-flex flex-wrap bd-highlight mb-5 justify-content-center codingprofile">
+                                {buttons}  
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -56,7 +56,9 @@
   margin-top: 10% ;
   padding: 0px 0px;
   font-size: 150%;
+  transition: top 0.3s;
  }
+
 
 
 .navbar-dark {
@@ -103,8 +105,18 @@
   color :rgb(9, 214, 241);
 }
 
-.about, .skills, .projects{
+.about, .skills, .projects ,.contact{
   background-color: black;
+}
+.contact{
+  padding: 30px 30px 30px 30px;
+}
+.contact a:hover{
+  color: white;
+  background-color: rgb(3, 156, 245);
+}
+.codingprofile{
+  padding: 30px 30px 30px 30px;
 }
 
 .row-display{
