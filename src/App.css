@@ -1,6 +1,6 @@
 
 .App{
-  background-image: url('/assets/images/background.png') !important;
+  background-image: url('/Portfolio/assets/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

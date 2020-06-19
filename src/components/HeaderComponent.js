@@ -3,6 +3,7 @@ import { Jumbotron, Navbar,NavItem,NavbarToggler,Collapse,Nav} from 'reactstrap'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel} from 'react-responsive-carousel';
 import  { TAGLINES }  from '../shared/taglines';
+import { FadeTransform} from 'react-animation-components';
 
 
 function RenderName({name}){
@@ -82,9 +83,10 @@ class Header extends Component{
                     
                 </Navbar>
                     <div className="container" id="home">
+                        <FadeTransform in>
                         <div className="row row-header"> 
                             <div className="col-12 col-sm-3">
-                                <img className="img-fluid img-thumbnail img-rounded"  src="/assets/images/display_pic.JPG" alt="Profile pic" />
+                                <img className="img-fluid img-thumbnail img-rounded"  src="/Portfolio/assets/images/display_pic.jpg" alt="Profile pic" />
                             </div>
                             <div className="col-12 col-sm-9">
                                 <RenderName name={this.props.myName}/>
@@ -101,7 +103,9 @@ class Header extends Component{
                                 <a className="btn btn-social-icon" href="https://github.com/Akhilkumar31e"><i className="fa fa-github fa-lg"></i></a>
                             </div>
                         </div>
+                        </FadeTransform>
                     </div>
+                    
                 </Jumbotron>  
             </React.Fragment>
         );

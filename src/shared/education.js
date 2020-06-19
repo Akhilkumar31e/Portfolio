@@ -5,7 +5,7 @@ export const EDUCATION = [
         stream:'B.Tech, CSE',
         batch:'2017-2021',
         grade:'9.6',
-        image:'/assets/images/collegelogo.png'
+        image:'/Portfolio/assets/images/collegelogo.png'
     },
     {
         id: 1,
@@ -13,7 +13,7 @@ export const EDUCATION = [
         stream:'Intermediate, MPC',
         batch:'2015-2017',
         grade:'96%',
-        image:'/assets/images/fiitjeelogo.png'
+        image:'/Portfolio/assets/images/fiitjeelogo.png'
     },
     {
         id: 2,
@@ -21,6 +21,6 @@ export const EDUCATION = [
         stream:'X, CBSE',
         batch:'2015',
         grade:'9.6',
-        image:'/assets/images/schoollogo.png'
+        image:'/Portfolio/assets/images/schoollogo.png'
     }
 ]
