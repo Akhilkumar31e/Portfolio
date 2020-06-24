@@ -1,7 +1,7 @@
 export const EDUCATION = [
     {
         id: 0,
-        name:'CVR College Of Enginnering',
+        name:'CVR College Of Engineering',
         stream:'B.Tech, CSE',
         batch:'2017-2021',
         grade:'9.6',

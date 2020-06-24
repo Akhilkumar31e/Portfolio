@@ -2,7 +2,7 @@ export const SKILLS = [
     {
         id:0,
         type:"Industry Knowledge",
-        skillset:['Data Structures ','Algorithms ','Competitive Programming ']
+        skillset:['Data Structures ','Algorithms ','Programming ']
     },
     {
         id:1,
