@@ -8,16 +8,27 @@ export const EXPERIENCE = [
     },
     {
         id:1,
-        jobname:'Campus Lead:  Scaler Achiever Club',
-        company:'Scaler Academy',
-        time:'March 2020-Present',
-        desc:'Leading Scaler developer community in my campus'
+        jobname:'Technical Intern',
+        company:'CodingZap Technologies',
+        time:'August 2020-September 2020',
+        desc:'Working on back-end and responsible for creating various endpoints for a company project using Node JS and Express Framework.'
     },
     {
         id:2,
-        jobname:'Technical Intern',
-        company:'CodingZap Technologies',
-        time:'August 2020-Present',
-        desc:'Working on back-end and responsible for creating various endpoints for a company project using Node JS and Express Framework.'
+        jobname:'Technology Intern',
+        company:'Virtusa',
+        time:'September 2020-November 2020'
+    },
+    {
+        id:3,
+        jobname:'Engineering Intern',
+        company:'OpenText',
+        time:'January 2021-March 2021'
+    },
+    {
+        id:4,
+        jobname:'Associate Software Engineer',
+        company:'OpenText',
+        time:'April 2021-Present'
     }
 ]

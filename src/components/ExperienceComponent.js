@@ -18,11 +18,11 @@ function RenderJobs({experience}){
                     
                 </div>
                 <div className="col-12 job-style">
-                    <p>{job.desc}</p>
+                    {job.desc && <p>{job.desc}</p>}
                 </div>
             </div>
         );
-    });
+    }).reverse();
     return(
         <React.Fragment>
             {jobs}
