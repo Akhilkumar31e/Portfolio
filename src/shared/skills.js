@@ -12,6 +12,6 @@ export const SKILLS = [
     {
         id:2,
         type:"Tools and Technologies",
-        skillset:['Android Studio ','Bootstrap ','React ','Firebase ','HTML ','CSS ']
+        skillset:['Android Studio ','Bootstrap ','React ','Firebase ','HTML ','CSS ','Spring boot', 'Google cloud platform']
     }
 ]

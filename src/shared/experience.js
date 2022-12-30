@@ -29,6 +29,12 @@ export const EXPERIENCE = [
         id:4,
         jobname:'Associate Software Engineer',
         company:'OpenText',
-        time:'April 2021-Present'
+        time:'April 2021-May 2022'
+    },
+    {
+        id:5,
+        jobname:'Software Development Engineer-1, Cleartrip',
+        company:'Flipkart',
+        time:'May 2022-Present'
     }
 ]
