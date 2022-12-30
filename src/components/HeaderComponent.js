@@ -86,7 +86,7 @@ class Header extends Component{
                         <FadeTransform in>
                         <div className="row row-header"> 
                             <div className="col-12 col-sm-3">
-                                <img className="img-fluid img-thumbnail img-rounded"  src="/Portfolio/assets/images/display_pic.jpg" alt="Profile pic" />
+                                <img className="img-fluid img-thumbnail img-rounded"  src="/Portfolio/assets/images/ppdp.jpg" alt="Profile pic" />
                             </div>
                             <div className="col-12 col-sm-9">
                                 <RenderName name={this.props.myName}/>
