@@ -25,10 +25,10 @@ class MainComponent extends Component{
             <React.Fragment>
                 <Header myName="Akhil Kumar Ellendula"/>
                 <About  aboutMe={this.state.aboutMe}/>
+                <Experience />
                 <Education />
                 <ScrollUpButton />
                 <Skills />
-                <Experience />
                 <Projects />
                 <CodingProfile codingProfiles={this.state.codingProfiles}/>
                 <Contact />
