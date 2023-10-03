@@ -33,7 +33,7 @@ export const EXPERIENCE = [
     },
     {
         id:5,
-        jobname:'Software Development Engineer-1, Cleartrip',
+        jobname:'Software Development Engineer-1',
         company:'Flipkart',
         time:'May 2022-Present'
     }
